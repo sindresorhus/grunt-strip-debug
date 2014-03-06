@@ -37,7 +37,7 @@
   ],
   "dependencies": {
     "each-async": "^0.1.0",
-    "strip-debug": "^0.2.0"
+    "strip-debug": "^0.3.0"
   },
   "devDependencies": {
     "grunt": "^0.4.2",

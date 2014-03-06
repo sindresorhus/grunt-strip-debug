@@ -1,14 +1,14 @@
-# grunt-strip-debug [![Build Status](https://secure.travis-ci.org/sindresorhus/grunt-strip-debug.png?branch=master)](http://travis-ci.org/sindresorhus/grunt-strip-debug)
+# grunt-strip-debug [![Build Status](https://travis-ci.org/sindresorhus/grunt-strip-debug.png?branch=master)](https://travis-ci.org/sindresorhus/grunt-strip-debug)
 
-> Strip `console` and `debugger` statements from JavaScript code with [strip-debug](https://github.com/sindresorhus/strip-debug)
+> Strip `console`, `alert`, and `debugger` statements from JavaScript code with [strip-debug](https://github.com/sindresorhus/strip-debug)
 
 
 ## Getting Started
 
 If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide, as it explains how to create a [gruntfile][Getting Started] as well as install and use grunt plugins. Once you're familiar with that process, install this plugin with this command:
 
-```sh
-npm install --save-dev grunt-strip-debug
+```bash
+$ npm install --save-dev grunt-strip-debug
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
@@ -44,4 +44,4 @@ grunt.registerTask('default', ['stripDebug']);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+[MIT](http://opensource.org/licenses/MIT) © [Sindre Sorhus](http://sindresorhus.com)
