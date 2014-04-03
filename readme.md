@@ -1,4 +1,4 @@
-# grunt-strip-debug [![Build Status](https://travis-ci.org/sindresorhus/grunt-strip-debug.png?branch=master)](https://travis-ci.org/sindresorhus/grunt-strip-debug)
+# grunt-strip-debug [![Build Status](https://travis-ci.org/sindresorhus/grunt-strip-debug.svg?branch=master)](https://travis-ci.org/sindresorhus/grunt-strip-debug)
 
 > Strip `console`, `alert`, and `debugger` statements from JavaScript code with [strip-debug](https://github.com/sindresorhus/strip-debug)
 
