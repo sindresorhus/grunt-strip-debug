@@ -1,6 +1,6 @@
 {
   "name": "grunt-strip-debug",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Strip console and debugger statements from JavaScript code",
   "license": "MIT",
   "repository": "sindresorhus/grunt-strip-debug",
