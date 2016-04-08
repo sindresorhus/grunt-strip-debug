@@ -5,7 +5,7 @@
 
 ## Install
 
-```sh
+```
 $ npm install --save-dev grunt-strip-debug
 ```
 
@@ -31,4 +31,4 @@ grunt.registerTask('default', ['stripDebug']);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
