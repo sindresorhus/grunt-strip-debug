@@ -1,8 +1,6 @@
-'use strict';
-/* eslint-env mocha */
-var assert = require('assert');
-var grunt = require('grunt');
+import fs from 'fs';
+import test from 'ava';
 
-it('should strip debugging', function () {
-	assert.equal(grunt.file.read('tmp/fixture.js'), 'function test(){}\n');
+test('strips debugging', t => {
+	t.is(fs.readFileSync('tmp/fixture.js', 'utf8'), 'function test(){}\n');
 });

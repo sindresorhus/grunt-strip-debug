@@ -1,52 +1,51 @@
 {
-  "name": "grunt-strip-debug",
-  "version": "1.1.0",
-  "description": "Strip console and debugger statements from JavaScript code",
-  "license": "MIT",
-  "repository": "sindresorhus/grunt-strip-debug",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "xo && grunt"
-  },
-  "files": [
-    "tasks"
-  ],
-  "keywords": [
-    "gruntplugin",
-    "strip",
-    "remove",
-    "delete",
-    "clean",
-    "debug",
-    "debugger",
-    "console",
-    "log",
-    "logging",
-    "js",
-    "javascript",
-    "ecmascript",
-    "ast",
-    "esprima"
-  ],
-  "dependencies": {
-    "each-async": "^1.0.0",
-    "strip-debug": "^1.0.0"
-  },
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-simple-mocha": "^0.4.0",
-    "xo": "*"
-  },
-  "peerDependencies": {
-    "grunt": ">=0.4.0"
-  }
+	"name": "grunt-strip-debug",
+	"version": "1.1.0",
+	"description": "Strip console and debugger statements from JavaScript code",
+	"license": "MIT",
+	"repository": "sindresorhus/grunt-strip-debug",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && grunt && ava"
+	},
+	"files": [
+		"tasks"
+	],
+	"keywords": [
+		"gruntplugin",
+		"strip",
+		"remove",
+		"delete",
+		"clean",
+		"debug",
+		"debugger",
+		"console",
+		"log",
+		"logging",
+		"js",
+		"javascript",
+		"ecmascript",
+		"ast",
+		"esprima"
+	],
+	"dependencies": {
+		"strip-debug": "^3.0.0"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"grunt": "^1.0.1",
+		"grunt-cli": "^1.2.0",
+		"grunt-contrib-clean": "^1.0.0",
+		"xo": "*"
+	},
+	"peerDependencies": {
+		"grunt": ">=1"
+	}
 }

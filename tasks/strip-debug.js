@@ -1,12 +1,10 @@
 'use strict';
-var eachAsync = require('each-async');
-var stripDebug = require('strip-debug');
+const stripDebug = require('strip-debug');
 
-module.exports = function (grunt) {
+module.exports = grunt => {
 	grunt.registerMultiTask('stripDebug', 'Strip console and debugger statements', function () {
-		eachAsync(this.files, function (el, i, next) {
-			grunt.file.write(el.dest, stripDebug(grunt.file.read(el.src[0])));
-			next();
-		}, this.async());
+		for (const file of this.files) {
+			grunt.file.write(file.dest, stripDebug(grunt.file.read(file.src[0])));
+		}
 	});
 };
